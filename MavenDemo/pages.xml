@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MySuite">
+	
+  <listeners>
+    <listener class-name="listners.com.MyListners" />
+  </listeners>
+
+  <test thread-count="5" name="Test99GuruLogin">
+
+    <parameter name="username" value="mngr625843" />
+    <parameter name="password" value="zEzujYs" />
+
+    <classes>
+      <class name="test.com.Test99GuruLogin" />
+      <!-- <class name="test.com.NoPomTestGuru99Login"/> -->
+      <!-- <class name="test.com.Test99GuruLoginWithPageFactory"/> -->
+    </classes>
+
+  </test>
+</suite>
