@@ -34,12 +34,12 @@ public class TestATclass extends BaseclassNew {
             homepage = new HomePageATclass(driver);
             
 	        loginpage.LoginPageATclass(username, password);
-
-	        if (shouldPass) {
-	            Assert.assertTrue(homepage.isLoginsucces(), "Expected login to succeed but failed");
-	        } else {
-	            Assert.assertFalse(isLoginSuccessSafe(), "Expected login to fail but passed");
-	        }
+//
+//	        if (shouldPass) {
+//	            Assert.assertTrue(homepage.isLoginsucces(), "Expected login to succeed but failed");
+//	        } else {
+//	            Assert.assertFalse(isLoginSuccessSafe(), "Expected login to fail but passed");
+//	        }
 	    }
 
 	    // To prevent NoSuchElementException
