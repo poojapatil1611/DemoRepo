@@ -12,6 +12,7 @@
 		<classes>
 			<class name="test2.com.TestATclass" />
 			<class name="test2.com.DemoTest" />
+			<class name="test2.com.DemoTest2" />
 		</classes>
 	</test>
 </suite> 
