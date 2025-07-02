@@ -14,6 +14,7 @@
 			<class name="test2.com.DemoTest" />
 			<class name="test2.com.DemoTest2" />
 			<class name="test2.com.NewClass" />
+			<class name="test2.com.PracticeTest" />
 		</classes>
 	</test>
 </suite> 
